@@ -24,3 +24,7 @@ main()
 print("Recherche « peste » :")
 for livre in biblio.rechercher_par_titre("peste"):
 print(f" - {livre}")
+
+def __str__(self):
+statut = "disponible" if self.disponible else "emprunté"
+return f"{self.titre} par {self.auteur} (ISBN {self.isbn}) - {statut}"
