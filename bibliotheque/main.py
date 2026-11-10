@@ -28,3 +28,4 @@ print(f" - {livre}")
 def __str__(self):
 marque = "+" if self.disponible else "-"
 return f"[{marque}] {self.titre} - {self.auteur}"
+
