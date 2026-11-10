@@ -22,5 +22,5 @@ self.disponible = True
 def __str__(self):
 statut = "disponible" if self.disponible else "emprunté"
 return f"{self.titre} ({self.auteur}) - {statut}"
-def trier_par_titre(self):
-return sorted(self._livres, key=lambda l: l.titre)
+def trier_par_titre(self, inverse=False):
+return sorted(self._livres, key=lambda l: l.titre, reverse=inverse)
