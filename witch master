@@ -1,0 +1,9 @@
+* [33md9e640a[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32messai-merge[m[33m, [m[1;32mmaster[m[33m)[m docs: complète la liste des fonctionnalités
+*   [33m73707b0[m feat: ajoute le tri par titre
+[32m|[m[33m\[m  
+[32m|[m * [33mc3fe05d[m[33m ([m[1;32mfeature/affichage-detaille[m[33m)[m feat: affichage détaillé des livres
+* [33m|[m [33m95bc4d4[m feat: affichage compact des livres
+[33m|[m[33m/[m  
+*   [33ma5abb04[m merge: intègre feature/statistiques
+[34m|[m[35m\[m  
+[34m|[m * [33m0381a53[m feat: ajoute le nombre de livres disponibles
