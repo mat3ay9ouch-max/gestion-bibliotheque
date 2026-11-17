@@ -29,3 +29,5 @@ def __str__(self):
 marque = "+" if self.disponible else "-"
 return f"[{marque}] {self.titre} - {self.auteur}"
 
+  print(f"{len(biblio)} livres au catalogue") 
+  
